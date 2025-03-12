@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ErrorPower's GitHub.IO Site
+title: Hexo ErrorPower's GitHub.IO Site
 subtitle: ''
 description: ''
 keywords:
-author: ErrorPower2001
+author: Hexo ErrorPower2001
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -101,4 +101,6 @@ theme: redefine
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: git@github.com:ErrorPower2001/HexoPersonalSite.git
+  branch: [master]
