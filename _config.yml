@@ -103,4 +103,4 @@ theme: redefine
 deploy:
   type: 'git'
   repo: git@github.com:ErrorPower2001/HexoPersonalSite.git
-  branch: [master]
+  branch: [gh-pages]
